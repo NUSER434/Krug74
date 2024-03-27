@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маршрут</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="../style/null.css">
+    <link rel="stylesheet" href="../style/route.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="../js/route.js"></script>
+</head>
+
+<body>
+    <section class="header">
+        <div class="header_banner flex">
+            <a class="header_banner_logo" href="/pages/index.html">
+                <img src="../img/common/header_logo.svg" alt="logo">
+            </a>
+            <a class="header_banner_address" href="https://goo.gl/maps/BkAMs3krRya62bMs6" target="_blank">
+                площадь Революции, г. Челябинск
+            </a>
+            <div class="header_banner_links flex">
+                <a class="header_banner_links_item" href="https://vk.com/krugosvetka_ural" target="_blank">
+                    <img src="../img/common/vk.svg" alt="vk">
+                </a>
+                <a class="header_banner_links_item" href="#" target="_blank">
+                    <img src="../img/common/ok.svg" alt="ok">
+                </a>
+            </div>
+        </div>
+        <div class="header_nav flex" id="header_nav">
+            <li class="mainmenu__item"><a class="menu__link" href="../pages/routes.html">Маршруты</a></li>
+            <li class="mainmenu__item"><a class="menu__link" href="#">О нас</a></li>
+            <li class="mainmenu__item"><a class="menu__link" href="../pages/article.html">Статьи</a></li>
+            <li class="mainmenu__item"><a class="menu__link" href="#">Контакты</a></li>
+            <li class="mainmenu__item"><a class="menu__link" href="../pages/shop_cart.html">Корзина</a></li>
+            <li class="mainmenu__item"><a class="menu__link" href="#">Избранное</a></li>
+            <li class="mainmenu__item"><a class="menu__link" href="../pages/profile.html">Профиль</a></li>
+        </div>
+    </section>
+
+    <section class="main">
+        <h1 class="main_title">
+            Ледяной фонта и&nbsp;лоси, Зюраткуль
+        </h1>
+        <img class="main_img" src="../img/route/main_img.png" alt="Главное изображение">
+
+        <div class="main_block flex">
+            <img class="main_block_route_img" src="../img/route/main_block_route_img.jpg" alt="Маршрут">
+
+            <div class="main_block_right">
+                <p class="main_block_text">
+                    Увидим чудо природы&nbsp;&mdash; Ледяной фонтан, огромную голубую сосульку, высотой 12м.
+                    Посетим дом лося, Сохатка, пообщаемся с&nbsp;лосями, погладим и&nbsp;покормим&nbsp;их.
+                    Устроим пикник на&nbsp;свежем воздухе в&nbsp;настоящей тайге!
+                </p>
+                <div class="main_block_img flex">
+                    <img class="main_block_img_item" src="../img/route/main_block_img_1.png"
+                        alt="Изображение блока">
+                    <img class="main_block_img_item" src="../img/route/main_block_img_2.png"
+                        alt="Изображение блока">
+                    <img class="main_block_img_item" src="../img/route/main_block_img_3.png"
+                        alt="Изображение блока">
+                </div>
+                <div class="main_block_cost flex">
+                    <p class="main_block_cost_descr">
+                        <b>Стоимость</b><br />
+                        для взрослых<br />
+                        для детей
+                    </p>
+                    <p class="main_block_cost_value">
+                        1350&nbsp;руб.<br />
+                        1250&nbsp;руб.
+                    </p>
+                    <input class="main_block_cost_btn" value="Забронировать" type="button" onclick=toBook()>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer flex">
+        <a class="footer_logo" href="../pages/main.html">
+            <img src="../img/common/footer_logo.svg" alt="logo">
+        </a>
+        <div class="footer_nav_div flex">
+            <ul class="footer_nav">
+                <a class="footer_nav_item" href="/pages/routes.html">
+                    <li> Маршруты </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Экскурсии </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Туры </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Гастротуры </li>
+                </a>
+            </ul>
+            <ul class="footer_nav">
+                <a class="footer_nav_item" href="#">
+                    <li> О&nbsp;нас </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Статьи </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Детям </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Контакты </li>
+                </a>
+            </ul>
+            <ul class="footer_nav">
+                <a class="footer_nav_item" href="/pages/profile.html">
+                    <li> Профиль </li>
+                </a>
+                <a class="footer_nav_item" href="/pages/trash.html">
+                    <li> Корзина </li>
+                </a>
+                <a class="footer_nav_item" href="/pages/favorites.html">
+                    <li> Избранное </li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="footer_links flex">
+            <a class="footer_links_item" href="https://vk.com/krugosvetka_ural" target="_blank">
+                <img src="../img/common/vk.svg" alt="vk">
+            </a>
+            <a class="footer_links_item" href="#" target="_blank">
+                <img src="../img/common/ok.svg" alt="ok">
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>

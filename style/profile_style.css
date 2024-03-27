@@ -1,0 +1,299 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Логотип */
+.header__logo{
+    margin: 26px 0 26px 150px;
+}
+
+.section__main{
+    width: 80%;
+    height: 100%;
+    
+
+}
+
+
+/* Шапка */
+header{
+    min-height: 206px;
+    
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 123px;
+}
+
+.location{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #2E4555;
+}
+
+.social__link{
+    padding-left: 20px;
+}
+
+.header__location{
+    margin: 26px 0px 27px 393px;
+}
+
+.header__social{
+    margin: 36px 150px 37px 0px;
+}
+
+/* Ссылки */
+
+
+.mainmenu__list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: row;
+}
+
+.mainmenu__item > a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-left: 100px;
+}
+
+.menu__link:hover{
+    color: #E6641B;
+    transition: 0.3s;
+}
+
+
+/* Подвал */
+
+.footer{
+    margin-top: 270px;
+    height: auto;
+    background: #2D64A1;
+    padding: 2.5vw 6vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__logo{
+    min-width: 25%;
+    margin-right: 10%;
+}
+
+.footer__logo:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.footer__link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 70px;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.footer__link:hover{
+    cursor: pointer;
+    color: #E6641B;
+    transition: 0.3s;
+}
+
+.footer__nav{
+    margin-right: 5vw;
+}
+
+.social__link{
+    width: 40%;
+}
+
+.social__link:not(:last-child){
+    margin-right: 5px;
+}
+
+
+
+profile_form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    margin-left: 7%;
+    margin-top: 4%;
+    height: max-content;
+   
+}
+
+.profile_form h1{
+    color: #2E4555;
+    font-weight: bold;
+    padding-bottom: 2em;
+}
+
+.profile_form input {
+
+    border-radius: 4ch;
+    background-color: #F3F3F3;
+    border: none;
+    width: 527px !important;
+    height: 60px !important;
+}
+
+
+
+.main{
+    padding-bottom: 4ch;
+}
+.footer{
+    background-color:#2D64A1;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    height: 100%;
+}
+.footer-links ul{
+ 
+    padding-left: 10ch !important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.footer-links ul a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.addcard{
+    background-color: #E6641B !important;
+    border-radius: 65px;
+    border: none;
+    color: white;
+    padding: 1em 1em 1em 1em;
+    width: 20em;
+    margin-bottom: 2em;
+}
+.addcard:hover{
+    background-color: #FADF55 !important;
+    transition-duration: 250ms;
+    color: #2D64A1;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    height: 4em;
+    
+}
+
+main{
+  padding-left: 4em;
+  padding-right: 4em;
+
+}
+.subform{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+
+
+}
+
+.second-form{
+    width: 40em;
+
+}
+
+.second-form label, input{
+    height: 5em !important;
+}
+
+
+
+.add-card-form{
+    width: 30em;
+        height: 60px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 65px;
+        border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

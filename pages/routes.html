@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маршруты</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="../style/null.css">
+    <link rel="stylesheet" href="../style/routes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <div class="header_banner flex">
+            <a class="header_banner_logo" href="../pages/index.html">
+                <img src="../img/common/header_logo.svg" alt="logo">
+            </a>
+            <a class="header_banner_address" href="https://goo.gl/maps/BkAMs3krRya62bMs6" target="_blank">
+                площадь Революции, г. Челябинск
+            </a>
+            <div class="header_banner_links flex">
+                <a class="header_banner_links_item" href="" target="_blank">
+                    <img src="../img/common/vk.svg" alt="vk">
+                </a>
+                <a class="header_banner_links_item" href="#" target="_blank">
+                    <img src="../img/common/ok.svg" alt="ok">
+                </a>
+            </div>
+        </div>
+        <div class="header_nav flex">
+            <a class="header_nav_item" href="../pages/routes.html"> Маршруты </a>
+            <a class="header_nav_item" href="#"> О&nbsp;нас </a>
+            <a class="header_nav_item" href="../pages/article.html"> Статьи</a>
+            <a class="header_nav_item" href="#"> Контакты </a>
+            <a class="header_nav_item" href="../pages/shop_cart.html"> Корзина </a>
+            <a class="header_nav_item" href="#"> Избранное </a>
+            <a class="header_nav_item" href="../pages/profile.html"> Профиль </a>
+        </div>
+    </section>
+    <section class="main">
+        <h2 class="main_title">Маршруты</h2>
+        <div class="main_tools">
+            <div class="search">
+                <!-- <form action="" method="get" class="flex">
+                    <input class="search_form" type="search" name="s" placeholder="поиск">
+                    <button class="submit_form" type="submit">Найти</button>
+                </form> -->
+                <form id="search-form" action="#" method="get">
+                    <input id="search-input" type="text" placeholder="Поиск">
+                    <button type="submit">Найти</button>
+                </form>
+            </div>
+            <div class="sort flex">
+                <select id="type">
+                    <option value="" disabled selected hidden>Вид</option>
+                    <option>тематическая программа</option>
+                    <option>сюжетная программа</option>
+                    <option>музыкальный квест</option>
+                    <option>поездка</option>
+                    <option>экскурсия</option>
+                    <option>программа-квест</option>
+                </select>
+                <select id="price">
+                    <option value="" disabled selected hidden>Цена</option>
+                    <option>По возрастанию</option>
+                    <option>По убыванию</option>
+                </select>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image"
+                        src="../img/img/04bbed676b3b62a44d0bff3cdfdo--dlya-doma-i-interera-baraban-vintazhnyj-malyj.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Барабанные ёлки 2023</h2>
+                    <p class="product-subtitle">музыкальный квест</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">2 часа</p>
+                            <p class="product-seats">2 места</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2500 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/ФОК_Горка_-_указатели.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Снежный бум</h2>
+                    <p class="product-subtitle">сюжетная программа</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">2 часа</p>
+                            <p class="product-seats">1 место</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2150 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/0162.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Легенды севера</h2>
+                    <p class="product-subtitle">тематическая программа</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">1 место</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2250 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image"
+                        src="../img/img/eefS9u_w4r8K73v_Y7mKFgil1aiHGXbDtl6kFPpWdnLqxl4s0CGMLskG3vmGV1wVyQNWTcfQmAimUVLHyHggGiDW.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Шаман трех миров, аквилон</h2>
+                    <p class="product-subtitle">тематическая программа</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">1 место</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2250 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image"
+                        src="../img/img/xGMKdfR9VRmeSmF6a-0YCE_OeZD3X-tvRiW5NuZclfEoW8e8GrQ-JQemA3q2WfuHy9ztK5ZuIpQVgXsz-5zcnzs.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Хранители мечты</h2>
+                    <p class="product-subtitle">тематическая программа</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">1 место</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2150 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image"
+                        src="../img/img/Ozeg4seXqT1nAoXwoMYOLNamGFYMi0Dhr0jYBA-_vwA_VmQe7Z-qNRXu96KdOD_SFZlm6rAyfDN5wgFV1Kx5H1Dv.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Ночь перед рождеством</h2>
+                    <p class="product-subtitle">тематическая программа</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">2 часа</p>
+                            <p class="product-seats">1 место</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2200 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image"
+                        src="../img/img/1660240934_6-klubmama-ru-p-podelki-feierverk-novogodnii-feierverk-fot-7.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Новогодний фейерверк</h2>
+                    <p class="product-subtitle">программа-квест</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">2 часа</p>
+                            <p class="product-seats">1 места</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2200 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/c4cf448f-7bbc-5bd3-a50d-eb31334b169a.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Новогодние приключения старшины Морозова</h2>
+                    <p class="product-subtitle">тематическая программа</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">2 часа</p>
+                            <p class="product-seats">1 место</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2200 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/1546463246_30.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Коляда или древнеруссикй Новый год</h2>
+                    <p class="product-subtitle">тематическая программа</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">2 часа</p>
+                            <p class="product-seats">1 место</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2200 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/71f832bc6a1b9ae14736bfad185d5de9.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Киностудия, барабаны, Екатеринбург</h2>
+                    <p class="product-subtitle">поездка</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">2 дня</p>
+                            <p class="product-seats">6 мест</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">7300 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image"
+                        src="../img/img/FwctMOnbiPiYGgNSM1zPj-kubxHtfWKvlbsJIrxJF6jqiSH6Z-mBuY_Rmdf5NQH-JUPZzVvZAUU6mpKOcKIfz2jm.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Киностудия, крокодилы, Екатеринбург</h2>
+                    <p class="product-subtitle">поездка</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">2 дня</p>
+                            <p class="product-seats">6 мест</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">6000 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/DSCN5348 Panorama 6-1000.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Тальков камень, фарфоровый завод, Сысерть</h2>
+                    <p class="product-subtitle">экскурсия</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">6 мест</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2250 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/DSC_0082.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Музей Бажова, фарфоровый завод, Сысерть</h2>
+                    <p class="product-subtitle">экскурсия</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">5 мест</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2550 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/1b27c0_f89d7d929f16480885ddfa3794475157.jpg"
+                        alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Аировка, Косотур, Златоуст</h2>
+                    <p class="product-subtitle">экскурсия</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">4 места</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">1950 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/12244161508757653_0f70.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Колокольня, Семибратка, Златоуст</h2>
+                    <p class="product-subtitle">экскурсия</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">3 места</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">1850 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/79_full.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Косотур, Семибратка, Златоуст</h2>
+                    <p class="product-subtitle">экскурсия</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">3 места</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">1700 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/maxresdefault.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Аировка, Семибратка, Златоуст</h2>
+                    <p class="product-subtitle">экскурсия</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">3 места</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2050 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img class="product-image" src="../img/img/45783395.jpg" alt="Product Image">
+                    <div class="product-like"></div>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">В гости к павлинам и оленям</h2>
+                    <p class="product-subtitle">экскурсия</p>
+                    <div class="product-details">
+                        <div class="product-details-left">
+                            <p class="product-time">1 день</p>
+                            <p class="product-seats">1 место</p>
+                        </div>
+                        <div class="product-details-right">
+                            <p class="product-price">2250 руб.</p>
+                            <button class="product-button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                const form = document.getElementById('search-form');
+                const input = document.getElementById('search-input');
+                const products = document.querySelectorAll('.product-card');
+
+                form.addEventListener('submit', (event) => {
+                    event.preventDefault();
+                    const searchTerm = input.value.toLowerCase();
+
+                    products.forEach((product) => {
+                        const title = product.querySelector('.product-title').textContent.toLowerCase();
+
+                        if (searchTerm === '') {
+                            product.style.display = 'flex';
+                        } else if (title.includes(searchTerm)) {
+                            product.style.display = 'flex';
+                        } else {
+                            product.style.display = 'none';
+                        }
+                    });
+                });
+            </script>
+            <script>
+                const typeSelect = document.getElementById('type');
+                const priceSelect = document.getElementById('price');
+                const cards = document.querySelectorAll('.product-card');
+
+                // typeSelect.addEventListener('change', () => {
+                //     const selectedType = typeSelect.value.toLowerCase();
+                //     cards.forEach(card => {
+                //         const cardType = card.querySelector('.product-subtitle').textContent.toLowerCase();
+                //         if (selectedType === '' || cardType === selectedType) {
+                //             card.style.display = 'flex';
+                //         } else {
+                //             card.style.display = 'none';
+                //         }
+                //     });
+                // });
+
+                priceSelect.addEventListener('change', () => {
+                    const selectedPrice = priceSelect.value;
+                    const sortedCards = Array.from(cards).sort((a, b) => {
+                        const priceA = parseInt(a.querySelector('.product-price').textContent);
+                        const priceB = parseInt(b.querySelector('.product-price').textContent);
+                        return selectedPrice === 'По возрастанию' ? priceA - priceB : priceB - priceA;
+                    });
+                    sortedCards.forEach(card => {
+                        document.querySelector('.cards').appendChild(card);
+                    });
+                });
+
+            </script>
+        </div>
+
+    </section>
+    <section class="footer flex">
+
+        <div class="footer_nav_div flex">
+            <a class="footer_logo" href="/pages/main.html">
+                <img src="../img/common/footer_logo.svg" alt="logo">
+            </a>
+            <ul class="footer_nav">
+                <a class="footer_nav_item" href="/pages/routes.html">
+                    <li> Маршруты </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Экскурсии </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Туры </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Гастротуры </li>
+                </a>
+            </ul>
+            <ul class="footer_nav">
+                <a class="footer_nav_item" href="#">
+                    <li> О&nbsp;нас </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Статьи </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Детям </li>
+                </a>
+                <a class="footer_nav_item" href="#">
+                    <li> Контакты </li>
+                </a>
+            </ul>
+            <ul class="footer_nav">
+                <a class="footer_nav_item" href="/pages/profile.html">
+                    <li> Профиль </li>
+                </a>
+                <a class="footer_nav_item" href="/pages/trash.html">
+                    <li> Корзина </li>
+                </a>
+                <a class="footer_nav_item" href="/pages/favorites.html">
+                    <li> Избранное </li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="footer_links flex">
+            <a class="footer_links_item" href="https://vk.com/krugosvetka_ural" target="_blank">
+                <img src="../img/common/vk.svg" alt="vk">
+            </a>
+            <a class="footer_links_item" href="#" target="_blank">
+                <img src="../img/common/ok.svg" alt="ok">
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
